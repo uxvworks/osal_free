@@ -13,14 +13,15 @@
  */
 
 
-#include "osal/osal.h"
-#include "osal/osal_thread.h"
-#include "osal/osal_memory.h"
+#include "osal_free/osal.h"
+#include "osal_free/osal_thread.h"
+#include "osal_free/osal_memory.h"
 
 
 
 #if defined(RMX_OSAL_PTHREAD)
 
+#include <pthread.h>
 #include <assert.h>
 
 #define OSAL_PTHREAD_MIN_STACK	(1024*1024)

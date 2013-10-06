@@ -36,9 +36,10 @@ extern "C"
 
 
 #include <pthread.h>
-#include "rmx/osal/osal.h"
-#include "rmx/osal/osal_mutex.h"
-#include "rmx/spsc_fifo/ptr_spsc_fifo.h"
+
+#include "osal_free/osal.h"
+#include "osal_free/osal_mutex.h"
+#include "spsc_fifo/ptr_spsc_fifo.h"
 
     typedef  struct
     {

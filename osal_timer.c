@@ -14,8 +14,8 @@
  * \author Phillip Yeager <monstermoto@yahoo.com>
  */
 
-#include "osal/osal.h"
-#include "osal/osal_timer.h"
+#include "osal_free/osal.h"
+#include "osal_free/osal_timer.h"
 
 
 #if defined(RMX_OSAL_PTHREAD)

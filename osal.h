@@ -23,12 +23,20 @@
 #include <stdbool.h>
 #include <stdint.h>
 
+#include "osal_free/osal_timer.h"
+#include "osal_free/osal_mutex.h"
+#include "osal_free/osal_memory.h"
+#include "osal_free/osal_msg_q.h"
+#include "osal_free/osal_thread.h"
+
 
 #ifdef __cplusplus
 extern "C"
 {
 #endif
 
+#define RMX_SUCCESS     0
+#define RMX_FAIL        -1
 
 extern volatile int osal_program_interrupted;
 

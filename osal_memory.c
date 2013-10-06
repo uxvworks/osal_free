@@ -15,8 +15,8 @@
 
 #include <stdlib.h>
 
-#include "osal/osal.h"
-#include "osal/osal_memory.h"
+#include "osal_free/osal.h"
+#include "osal_free/osal_memory.h"
 
 
 

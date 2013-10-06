@@ -19,10 +19,11 @@
 #include <stdio.h>
 
 
-#include "rmx/osal/osal.h"
-#include "rmx/osal/osal_memory.h"
-#include "rmx/osal/osal_timer.h"
-#include "rmx/osal/osal_msg_q.h"
+#include "osal_free/osal.h"
+#include "osal_free/osal_memory.h"
+#include "osal_free/osal_timer.h"
+#include "osal_free/osal_msg_q.h"
+#include "spsc_fifo/ptr_spsc_fifo.h"
 
 
 #if defined(RMX_OSAL_PTHREAD)

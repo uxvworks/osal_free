@@ -19,7 +19,7 @@
 #define RMX_OSAL_TIMER_H
 
 
-#include "osal/osal_thread.h"
+#include "osal_free/osal_thread.h"
 
 
 #ifdef __cplusplus

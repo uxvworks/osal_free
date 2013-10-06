@@ -15,7 +15,7 @@
  */
 
 
-#include "osal/osal.h"
+#include "osal_free/osal.h"
 
 volatile int osal_program_interrupted = 0;     //  app signal handler sets this global to indicate osal threads should clean up and exit
 

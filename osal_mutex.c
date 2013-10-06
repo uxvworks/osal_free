@@ -16,8 +16,8 @@
 
 
 
-#include "osal/osal.h"
-#include "osal/osal_mutex.h"
+#include "osal_free/osal.h"
+#include "osal_free/osal_mutex.h"
 
 
 #if defined(RMX_OSAL_PTHREAD)
