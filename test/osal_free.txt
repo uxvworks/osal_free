@@ -1,1 +1,0 @@
-./Debug/main.o ./Debug/osal_free_osal.o ./Debug/osal_free_osal_memory.o ./Debug/osal_free_osal_msg_q.o ./Debug/osal_free_osal_mutex.o ./Debug/osal_free_osal_thread.o ./Debug/osal_free_osal_timer.o ./Debug/spsc_fifo_byte_spsc_fifo.o ./Debug/spsc_fifo_ptr_spsc_fifo.o
