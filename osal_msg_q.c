@@ -3,11 +3,9 @@
  * <!--
  * This file is part of osal - OS abstraction layer.
  *
- * osal is not free software.
  *
- * Copyright 2009-2011 Phillip Yeager
+ * Copyright 2009-2013 Phillip Yeager
  *
- * -->
  *
  * \brief Message Queueinterface
  *

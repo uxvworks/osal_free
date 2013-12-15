@@ -13,7 +13,7 @@ OSAL_THREADFUNC_TYPE Thread1Func(OSAL_THREADFUNC_ARG_TYPE dataP)
     while (!osal_program_interrupted)
     {
         printf("%lu - Thread1: running...\n", osal_getUsecTime());
-        osal_sleepTimerMsec(1000);
+        osal_usleep(1000000);
     }
     printf("Thread1: exiting...\n");
     return NULL;

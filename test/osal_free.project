@@ -7,7 +7,7 @@
   </Plugins>
   <Description/>
   <Dependencies/>
-  <VirtualDirectory Name="src">
+  <VirtualDirectory Name="test">
     <File Name="main.c"/>
   </VirtualDirectory>
   <VirtualDirectory Name="osal_free">
@@ -24,13 +24,6 @@
     <File Name="../osal_thread.h"/>
     <File Name="../osal_timer.c"/>
     <File Name="../osal_timer.h"/>
-  </VirtualDirectory>
-  <VirtualDirectory Name="spsc_fifo">
-    <File Name="../../spsc_fifo/byte_spsc_fifo.c"/>
-    <File Name="../../spsc_fifo/byte_spsc_fifo.h"/>
-    <File Name="../../spsc_fifo/ptr_spsc_fifo.c"/>
-    <File Name="../../spsc_fifo/ptr_spsc_fifo.h"/>
-    <File Name="../../spsc_fifo/spsc_fifo_template.h"/>
   </VirtualDirectory>
   <Settings Type="Executable">
     <GlobalSettings>
@@ -123,4 +116,6 @@
       </Completion>
     </Configuration>
   </Settings>
+  <Dependencies Name="Debug"/>
+  <Dependencies Name="Release"/>
 </CodeLite_Project>
