@@ -53,7 +53,7 @@ extern void osal_init(void);
 extern void osal_exit(void);
 
 
-#define RMX_KERN_STRING 	"PTHREAD"
+#define RMX_KERN_STRING     "PTHREAD"
 
 
 
@@ -61,7 +61,7 @@ extern void osal_exit(void);
 
 #include "bertos/kern/proc.h"
 
-#define osal_init() 		 IRQ_ENABLE;timer_init();proc_init()
+#define osal_init()  IRQ_ENABLE;timer_init();proc_init()
 #define osal_start()
 #define osal_exit()
 
